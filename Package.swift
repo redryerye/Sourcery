@@ -27,7 +27,7 @@ let package = Package(
         .package(name: "XcodeProj", url: "https://github.com/tuist/xcodeproj", .exact("8.3.1")),
         .package(name: "SwiftSyntax",
                  url: "https://github.com/apple/swift-syntax.git",
-                 .exact("0.50500.0")),
+                 .exact("0.50600.0")),
         .package(url: "https://github.com/Quick/Quick.git", from: "3.0.0"),
         .package(url: "https://github.com/Quick/Nimble.git", from: "9.0.0")
     ],
