@@ -1,4 +1,4 @@
-// swift-tools-version:5.6
+// swift-tools-version:5.7
 
 import PackageDescription
 import Foundation
@@ -6,7 +6,7 @@ import Foundation
 let package = Package(
     name: "Sourcery",
     platforms: [
-       .macOS(.v10_12),
+       .macOS(.v10_13),
     ],
     products: [
         // SPM won't generate .swiftmodule for a target directly used by a product,
@@ -26,7 +26,7 @@ let package = Package(
         .package(url: "https://github.com/kylef/PathKit.git", exact: "1.0.1"),
         .package(url: "https://github.com/SwiftGen/StencilSwiftKit.git", exact: "2.10.1"),
         .package(url: "https://github.com/tuist/XcodeProj.git", exact: "8.3.1"),
-        .package(url: "https://github.com/apple/swift-syntax.git", exact: "0.50600.1"),
+        .package(url: "https://github.com/apple/swift-syntax.git", exact: "0.50700.0"),
         .package(url: "https://github.com/Quick/Quick.git", from: "3.0.0"),
         .package(url: "https://github.com/Quick/Nimble.git", from: "9.0.0")
     ],
